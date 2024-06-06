@@ -28,4 +28,4 @@ jobs:
           sender_email_app_password: ${{ secrets.SENDER_EMAIL_APP_PASSWORD }}
           recipient_email: ${{ secrets.RECIPIENT_EMAIL }}
           url: ${{ secrets.URL }}
-        run: python jalapeno.py
+        run: python main.py
